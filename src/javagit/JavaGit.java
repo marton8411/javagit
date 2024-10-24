@@ -5,11 +5,23 @@ public class JavaGit {
 
 
     public static void main(String[] args) {
-        /* ha hideg van, akkor
+        /* 10 fok alatt van hideg 
+        ha hideg van, akkor
          viszek kabátot
         egyébként
          nem viszek kabátot
         */
+        final int hideg_hatar = 10;
+        int homerseklet = 9;
+        boolean hideg = homerseklet < hideg_hatar;
+        String eredmeny = "";
+        
+        if (hideg) {
+            eredmeny = "Viszek kabátot.";
+        } else {
+            eredmeny = "Nem viszek kabátot.";
+        }
+        System.out.println(eredmeny);
     }
     
 }
