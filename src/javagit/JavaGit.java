@@ -14,10 +14,9 @@ public class JavaGit {
         final int hideg_hatar = 10;
         int homerseklet = 9;
         boolean hideg = homerseklet < hideg_hatar;
-        String viszek = "viszek kabátot";
-        String nemViszek = "Nem viszek kabátot";
+        String eredmeny = "viszek kabátot";
         /* ternális operátor */
-        String eredmeny = hideg ? viszek : nemViszek;
+        eredmeny = hideg ? eredmeny : "nem " + eredmeny;
         
         System.out.println(eredmeny);
     }
